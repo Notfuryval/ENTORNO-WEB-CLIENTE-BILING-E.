@@ -1,0 +1,10 @@
+{
+  "name": "unit3-student-collection",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "UNIT3 - Arrays, Objects, and Classes practice",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  }
+}
