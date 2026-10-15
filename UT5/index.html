@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Pet Profile Management</h1>
+
+  <!-- Form -->
+  <form id="petForm">
+    <input type="text" id="name" placeholder="Pet name">
+    <input type="text" id="description" placeholder="Description">
+    <input type="url" id="image" placeholder="Image URL">
+    <input type="date" id="birthdate">
+    <input type="number" id="price" placeholder="Price" min="0.01" step="0.01">
+    <input type="text" id="code" placeholder="Pet code (CAT123)">
+    
+    <!-- Checkbox to see if the pet is sold -->
+    <label>
+      <input type="checkbox" id="sold"> Sold
+    </label>
+
+    <button type="submit">Add Pet</button>
+  </form>
+
+  <!-- A div to show everythign -->
+  <div id="petList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
